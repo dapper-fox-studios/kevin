@@ -7,7 +7,7 @@ include (
 	'velocity'
 )
 
-findProject(':api')?.name = 'trevor-api'
-findProject(':common')?.name = 'trevor-common'
-findProject(':bungee')?.name = 'trevor-bungee'
-findProject(':velocity')?.name = 'trevor-velocity'
+findProject(':api')?.name = 'kevin-api'
+findProject(':common')?.name = 'kevin-common'
+findProject(':bungee')?.name = 'kevin-bungee'
+findProject(':velocity')?.name = 'kevin-velocity'

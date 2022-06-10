@@ -49,7 +49,6 @@ public class DatabaseProxyImpl implements DatabaseProxy {
 
           return ConnectResult.allow();
         } else {
-
           DisconnectPayload payload = DisconnectPayload.of(instance, user.uuid(), System.currentTimeMillis());
           connection.destroy(user.uuid());
           post(RedisDatabase.CHANNEL_DATA, connection, payload);
