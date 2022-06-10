@@ -1,4 +1,4 @@
-rootProject.name = 'trevor'
+rootProject.name = 'kevin'
 
 include (
 	'api',
