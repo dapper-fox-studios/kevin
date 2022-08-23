@@ -1,6 +1,6 @@
 name: Trevor
 main: co.schemati.trevor.bungee.TrevorBungee
-version: @VERSION@
-description: @DESCRIPTION@
+version: ${version}
+description: ${description}
 website: https://schemati.co/
 author: Schematico
