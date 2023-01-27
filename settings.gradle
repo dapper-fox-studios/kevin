@@ -4,10 +4,13 @@ include (
 	'api',
 	'common',
 	'bungee',
-	'velocity'
+	'velocity',
+	'spigot'
 )
 
 findProject(':api')?.name = 'kevin-api'
 findProject(':common')?.name = 'kevin-common'
 findProject(':bungee')?.name = 'kevin-bungee'
 findProject(':velocity')?.name = 'kevin-velocity'
+findProject(':spigot')?.name = "kevin-spigot"
+

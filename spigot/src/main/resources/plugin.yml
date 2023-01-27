@@ -1,0 +1,8 @@
+main: "gg.kineticmc.kevin.KevinSpigot"
+name: "KevinSpigot"
+version: @VERSION@
+description: @DESCRIPTION@
+api-version: 1.18
+authors: [Schematico, MrSoulPenguin]
+
+depend: [ProtocolLib]
